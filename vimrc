@@ -7,6 +7,7 @@ set showcmd
 set number
 set cursorline
 set wildmenu        " visual autocomplete for command menu
+set wildmode=list:longest,full
 set showmatch       " highlight matching [{()}]
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
