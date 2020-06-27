@@ -40,8 +40,9 @@ set hidden
 
 let g:LanguageClient_serverCommands = {
     \ 'rust': ['rust-analyzer'],
-    \ 'cpp': ['clangd'],
-    \ 'c': ['clangd'],
+    \ 'c': ['ccls'],
+    \ 'cpp': ['ccls'],
+    \ 'objc': ['ccls'],
     \ }
 
 nnoremap <F5> :call LanguageClient_contextMenu()<CR>
